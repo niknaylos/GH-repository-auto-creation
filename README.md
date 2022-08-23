@@ -3,6 +3,8 @@
 
 ## Script was made to practice using selenium methods
 
+This repository was autocreated using this script
+
 Input your credentials via console when prompted.
 Password input is hidden with getpass() module
 
