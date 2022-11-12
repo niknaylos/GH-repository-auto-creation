@@ -11,7 +11,7 @@ from selenium.common.exceptions import NoSuchElementException
 
 try:
 	# set values to send
-	s = Service('usr/local/bin/chromdriver')
+	s = Service('usr/local/bin/chromedriver')
 	chromeOptions = Options()
 	chromeOptions.headless = False
 	username = input('Type your GH login: ')
