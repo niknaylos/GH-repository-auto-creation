@@ -12,4 +12,13 @@ Password input is hidden with getpass() module
 * Repo description defaults to 'test repository created via Selenium'
 * Privacy setting defaults to Private
 
+## Updates:
+
+12.11.2022 – Now handling invalid credentials input by checking if login is successful
+
+
+## ToDo:
+
+* Handle repository name exists error
+
 Showcase: https://youtu.be/fvlkkq-HLSI
