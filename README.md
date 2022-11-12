@@ -1,7 +1,7 @@
 # Automatically create GitHub repository via Selenium Chrome driver
 
 
-## Script was made to practice using selenium methods
+## Script was made to practise using selenium methods
 
 This repository was autocreated using this script
 
