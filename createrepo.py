@@ -23,7 +23,7 @@ try:
 	# find login elements
 
 
-	browser = webdriver.Chrome(service=s, options = chromeOptions)
+	browser = webdriver.Chrome(service = s, options = chromeOptions)
 	link = 'http://github.com/login'
 	browser.get(link)
 	login = browser.find_element(By.ID, 'login_field')
@@ -65,4 +65,5 @@ try:
 		print('Script stops, failed to login')
 finally:
 	browser.quit()
-	print(f'Created repository, you can see it at: https://github.com/{username}/{repname}')
+	if flag:
+		print(f'Created repository, you can see it at: https://github.com/{username}/{repname}')
